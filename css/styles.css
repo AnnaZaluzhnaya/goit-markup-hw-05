@@ -82,7 +82,8 @@ img {
 }
 .whole-logo {
   margin-right: 90px;
-  padding: 24px 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 /*ШАПКА САЙТА*/
@@ -513,7 +514,6 @@ img {
 /*КАРТОЧКИ ПОРТФОЛИО*/
 
 .portfolio-card > .portfolio-item {
-  flex-basis: calc(100% / 3 - var(--portfolio-card-gap));
   margin-left: var(--portfolio-card-gap);
   margin-top: var(--portfolio-card-gap);
   /* border: 1px solid #eeeeee; */
@@ -524,7 +524,6 @@ img {
 .portfolio-card {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--portfolio-card-gap));
 }
 
 .portfolio-item:nth-child(3n + 1) {
